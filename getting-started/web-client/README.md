@@ -2,7 +2,6 @@
 description: >-
   Banyan uses Filecoin to enable decentralized, end-to-end encrypted file
   storage that’s truly private, and works with a number of file types.
-cover: ../../.gitbook/assets/Screenshot 2024-03-26 at 1.19.55 PM.png
 coverY: 0
 
 ---
