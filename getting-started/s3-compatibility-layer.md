@@ -3,11 +3,8 @@
 Enabling this feature breaks end-to-end encryption by necessity.
 
 Read the [note](s3-compatibility-layer.md#security-note) below for more information.
-{% endhint %}
 
 Coming soon!
-
-TODO: repository, documentation, separate billing information
 
 <details>
 
