@@ -25,26 +25,14 @@ https://www.youtube.com/watch?v=nmZl62bImzs
 
 ## Quick links
 
-{% content-ref url="welcome-to-banyan/what-banyan-does.md" %}
 [what-banyan-does.md](welcome-to-banyan/what-banyan-does.md)
-{% endcontent-ref %}
 
-{% content-ref url="key-concepts/banyans-decentralization-model/" %}
 [banyans-decentralization-model](key-concepts/banyans-decentralization-model/)
-{% endcontent-ref %}
 
 ## Get Started
 
 We've put together some helpful guides for you to get setup with our product quickly and easily.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="getting-started/web-client/creating-a-drive.md" %}
 [creating-a-drive.md](getting-started/web-client/creating-a-drive.md)
-{% endcontent-ref %}
 
-{% content-ref url="getting-started/web-client/inviting-members.md" %}
 [inviting-members.md](getting-started/web-client/inviting-members.md)
-{% endcontent-ref %}
