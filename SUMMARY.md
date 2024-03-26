@@ -7,6 +7,8 @@
 
 * [📎 Drives and BanyanFS](key-concepts/drives-and-banyanfs/README.md)
   * [📒 Journaling/Versioning](key-concepts/drives-and-banyanfs/journaling-versioning.md)
+  * [🔐 Encryption (technical)](key-concepts/drives-and-banyanfs/encryption-technical.md)
+  * [🏡 Content Addressing](key-concepts/drives-and-banyanfs/content-addressing.md)
 * [💵 Billing](key-concepts/billing.md)
 * [📪 Understanding Security](key-concepts/understanding-security/README.md)
   * [🧑‍⚖️ Service Level Agreement (SLA)](key-concepts/understanding-security/service-level-agreement-sla.md)

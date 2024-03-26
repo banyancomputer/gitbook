@@ -2,7 +2,9 @@
 
 ## How BanyanFS works
 
-BanyanFS builds on and refines prior art in distributed data storage to provide end-to-end encryption without sacrificing collaboration and user control. A BanyanFS file system consists of a segment containing metadata as well as a content payload with hierarchically-encrypted data sections so that file shares are secure and granular. It also uses a signed, versioned journal for audited editing and historical rollback. You can read more about those features in&#x20;
+BanyanFS builds on and refines prior art in distributed data storage to provide end-to-end encryption without sacrificing collaboration and user control. A BanyanFS file system consists of a segment containing metadata as well as a content payload with hierarchically-encrypted data sections so that file shares are secure and granular. It also uses a signed, versioned journal for audited editing and historical rollback.&#x20;
+
+You can read more details about those features in the pages in this section.
 
 ### Drives
 

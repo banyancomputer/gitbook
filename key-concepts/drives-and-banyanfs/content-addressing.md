@@ -1,0 +1,5 @@
+# 🏡 Content Addressing
+
+What does this mean? A content-addressed filesystem (CAF) is a filesystem that stores data based on its content rather than its location or filename. Each piece of data is given a unique identifier based on its content allowing the user to easily retrieve data that corresponds with the identifier. [UnixFS](https://docs.ipfs.tech/concepts/file-systems/#unix-file-system-unixfs) and [WNFS](https://github.com/wnfs-wg/rs-wnfs) are two well-known examples of a CAF.\
+\
+The unique identifier is usually in the form of a cryptographic hash. Unlike traditional storage systems, a CAF is defined by these identifiers vs. directories and filenames. Journaling records any modifications to a file (creations and deletions). Journaling helps ensure file consistency, especially in the case of unexpected disruptions (i.e. power outage or system failure). In BanyanFS, the journal itself is included in the root hash. This ensures the integrity of the entire filesystem (including journal) can be verified using a single cryptographic hash.

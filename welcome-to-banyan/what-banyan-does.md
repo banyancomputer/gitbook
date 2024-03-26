@@ -8,27 +8,23 @@ description: A technical explainer from client to cloud and back.
 
 Banyan starts with files. We take a filesystem locally on your machine (in the case of the CLI) or an empty filesystem initialized to take files (for the SDK and webapp) and put it into a content-addressed, versioned, audit-logged, and encrypted format, called BanyanFS. You can read more about it here: [drives-and-banyanfs](../key-concepts/drives-and-banyanfs/ "mention").
 
-What does this mean? A content-addressed filesystem (CAF) is a filesystem that stores data based on its content rather than its location or filename. Each piece of data is given a unique identifier based on its content allowing the user to easily retrieve data that corresponds with the identifier. [UnixFS](https://docs.ipfs.tech/concepts/file-systems/#unix-file-system-unixfs) and [WNFS](https://github.com/wnfs-wg/rs-wnfs) are two well-known examples of a CAF.\
-\
-The unique identifier is usually in the form of a cryptographic hash. Unlike traditional storage systems, a CAF is defined by these identifiers vs. directories and filenames. Journaling records any modifications to a file (creations and deletions). Journaling helps ensure file consistency, especially in the case of unexpected disruptions (i.e. power outage or system failure). In BanyanFS, the journal itself is included in the root hash. This ensures the integrity of the entire filesystem (including journal) can be verified using a single cryptographic hash.
+<details>
 
-BanyanFS is configured to permit versioning and audit logging. These features help users maintain multiple iterations of a file or dataset over time. History tracking, rollbacks, and branching and merging, are all key aspects of versioning. Audit logging helps Banyan users maintain the security and integrity of data storage, especially in regions&#x20;
+<summary>Track bucket root hashes in our infrastructure, enforce write permissions</summary>
 
-What is versioning/audit logging:&#x20;
+We track the most recent root hash and manifest of blocks to keep around, live in our infrastructure in GCP. This is all that is stored or passes through GCP (assuming S3 mode is not on)- everything else is decentralized.
 
+Banyan's infrastructure enforces permissions on writes to the bucket's root hash (i.e., updating latest state of the filesystem) and whether blocks affiliated with a given bucket can be added or deleted to SPs (i.e., you'll get billed for anything kept in or retrieved from your bucket).
 
+</details>
 
-TODO and link [journaling-versioning.md](../key-concepts/drives-and-banyanfs/journaling-versioning.md "mention")
+<details>
 
-Read more about our encryption here: TODO link e2e encryption [journaling-versioning.md](../key-concepts/drives-and-banyanfs/journaling-versioning.md "mention")
+<summary>Meter data and bandwidth usage, bill for it</summary>
 
-### Track filesystem root hashes, enforce write permissions
+We meter blocks stored over each month and how often they're retrieved from the SPs in our infrastructure. We bill users monthly using Stripe for their usage. We may eventually support crypto payments- let us know on [our website](https://banyan.computer) if you're interested.
 
-We track the most recent root hash and manifest of blocks to keep live in&#x20;
-
-### Meter data and bandwidth usage, bill for it using Stripe
-
-TODO
+</details>
 
 ### Enforce block lifecycling for the filesystem
 
