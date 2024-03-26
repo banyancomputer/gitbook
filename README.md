@@ -21,7 +21,7 @@ Then, access your data, view cryptographic proofs of its storage, audit its cryp
 
 Got 2 minutes? Check out a video overview of our product: (TODO: update to latest version, redo demo)
 
-{% embed url="https://www.youtube.com/watch?v=nmZl62bImzs" %}
+https://www.youtube.com/watch?v=nmZl62bImzs
 
 ## Quick links
 
