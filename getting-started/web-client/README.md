@@ -4,20 +4,7 @@ description: >-
   storage that’s truly private, and works with a number of file types.
 cover: ../../.gitbook/assets/Screenshot 2024-03-26 at 1.19.55 PM.png
 coverY: 0
-layout:
-  cover:
-    visible: false
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+
 ---
 
 # 🖨️ Web Client
