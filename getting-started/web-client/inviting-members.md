@@ -6,9 +6,7 @@ description: >-
 
 # 🧑 Inviting Members
 
-<details>
 
-<summary>As a Guest User</summary>
 
 
 
