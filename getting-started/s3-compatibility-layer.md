@@ -1,6 +1,5 @@
 # 3️⃣ S3 Compatibility Layer
 
-{% hint style="warning" %}
 Enabling this feature breaks end-to-end encryption by necessity.
 
 Read the [note](s3-compatibility-layer.md#security-note) below for more information.
