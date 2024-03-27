@@ -1,24 +1,6 @@
 # Table of contents
 
-* [🫠 Welcome to Banyan](README.md)
-  * [💡 What Banyan Does](welcome-to-banyan/what-banyan-does.md)
-
-## Key Concepts
-
-* [📎 Drives and BanyanFS](key-concepts/drives-and-banyanfs/README.md)
-  * [📒 Journaling/Versioning](key-concepts/drives-and-banyanfs/journaling-versioning.md)
-  * [🔐 Encryption (technical)](key-concepts/drives-and-banyanfs/encryption-technical.md)
-  * [🏡 Content Addressing](key-concepts/drives-and-banyanfs/content-addressing.md)
-* [💵 Billing](key-concepts/billing.md)
-* [📪 Understanding Security](key-concepts/understanding-security/README.md)
-  * [🧑‍⚖️ Service Level Agreement (SLA)](key-concepts/understanding-security/service-level-agreement-sla.md)
-  * [😉 Third-party Compliance](key-concepts/understanding-security/third-party-compliance.md)
-  * [🔐 End-to-end Encryption](key-concepts/understanding-security/end-to-end-encryption.md)
-  * [✅ Filecoin & Proofs of Storage](key-concepts/understanding-security/filecoin-and-proofs-of-storage.md)
-  * [🚵‍♀️ Permissioned Retrievals](key-concepts/understanding-security/permissioned-retrievals.md)
-* [⛅ Banyan's Decentralization Model](key-concepts/banyans-decentralization-model/README.md)
-  * [🏭 SP Relationships](key-concepts/banyans-decentralization-model/sp-relationships.md)
-* [🧊 Archive Snapshots (Filecoin)](key-concepts/archive-snapshots-filecoin.md)
+* [🌲 Welcome to Banyan](README.md)
 
 ## Getting Started
 
@@ -31,3 +13,30 @@
 * [🦿 Using the SDK](getting-started/using-the-sdk.md)
 * [💾 CLI Uploading](getting-started/cli-uploading.md)
 * [3️⃣ S3 Compatibility Layer](getting-started/s3-compatibility-layer.md)
+* [😿 Help! I have FAR too much data to upload with these puny baby tools!](getting-started/help-i-have-far-too-much-data-to-upload-with-these-puny-baby-tools.md)
+* [📧 Filecoin?](getting-started/filecoin.md)
+
+## Key Concepts
+
+* [📎 Drives and BanyanFS](key-concepts/drives-and-banyanfs/README.md)
+  * [📒 Journaling and Versioning](key-concepts/drives-and-banyanfs/journaling-and-versioning.md)
+  * [🔐 Encryption (technical)](key-concepts/drives-and-banyanfs/encryption-technical.md)
+  * [🏡 Content Addressing](key-concepts/drives-and-banyanfs/content-addressing.md)
+* [💵 Billing](key-concepts/billing.md)
+* [📪 Banyan's Security Model](key-concepts/banyans-security-model/README.md)
+  * [🚵‍♀️ Permissioned Retrievals](key-concepts/banyans-security-model/permissioned-retrievals.md)
+  * [✅ Filecoin & Proofs of Storage](key-concepts/banyans-security-model/filecoin-and-proofs-of-storage.md)
+  * [🔐 End-to-end Encryption](key-concepts/banyans-security-model/end-to-end-encryption.md)
+  * [🧑‍⚖️ Service Level Agreement (SLA)](key-concepts/banyans-security-model/service-level-agreement-sla.md)
+  * [😉 Third-party Compliance](key-concepts/banyans-security-model/third-party-compliance.md)
+* [⛅ Banyan's Decentralization Model](key-concepts/banyans-decentralization-model/README.md)
+  * [🏭 Storage Providers](key-concepts/banyans-decentralization-model/sp-relationships/README.md)
+    * [🧐 SP Monitoring Service](key-concepts/banyans-decentralization-model/sp-relationships/sp-monitoring-service.md)
+  * [🤕 Self-healing storage](key-concepts/banyans-decentralization-model/self-healing-storage.md)
+* [🧊 Archive Snapshots (Filecoin)](key-concepts/archive-snapshots-filecoin.md)
+
+## Nerd Zone (technical gore)
+
+* [💡 What Banyan Does (for nerds)](nerd-zone-technical-gore/what-banyan-does-for-nerds.md)
+* [🚧 More about infrastructure](nerd-zone-technical-gore/more-about-infrastructure.md)
+* [BanyanFS Spec (DRAFT)](https://gist.github.com/sstelfox/c6b6cfe998b6fa5377aebca3313405d5)

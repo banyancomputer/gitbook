@@ -1,8 +1,10 @@
 # 3️⃣ S3 Compatibility Layer
 
+{% hint style="warning" %}
 Enabling this feature breaks end-to-end encryption by necessity.
 
 Read the [note](s3-compatibility-layer.md#security-note) below for more information.
+{% endhint %}
 
 Coming soon!
 
@@ -10,7 +12,7 @@ Coming soon!
 
 <summary>Security note/How it works</summary>
 
-S3 functionality breaks end-to-end encryption. This is because we can't send you your files over HTTP without decrypting them first.&#x20;
+S3 functionality breaks end-to-end encryption. This is because we can't send you your files over HTTP without decrypting them first.
 
 To enable S3 for a drive, you'll issue Banyan an encryption key for the drive that you want to serve over S3. We will custody that in an isolated area of our infrastructure. (TODO: add guide for how to do this in the frontend)
 
