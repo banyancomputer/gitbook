@@ -10,6 +10,6 @@ Right now, we ask our storage providers to give us 99.9% uptime for an individua
 
 We enforce these contracts by running monitoring software on the storage providers' hardware, and adding contractual clauses that allow us to audit select facts about their datacenter and business setup as needed.
 
-Learn more on the [sp-relationships](../banyans-decentralization-model/sp-relationships/ "mention") page.
+Learn more on the [sp-relationships](../banyan-and-its-network/sp-relationships/ "mention") page.
 
 Have more questions? [Submit a request](https://banyan.computer/contact).

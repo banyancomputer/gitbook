@@ -52,7 +52,7 @@ We select where your data goes inside our infrastructure, based on a variety of 
 
 Banyan SPs are vetted and monitored for performance and uptime. To make extra sure that your data is reliably live, we built our monitoring system to run alongside Filecoin's Boost and Lotus. It handles uptime and outage monitoring, ACLs, serving hot data, staging cold data for onboarding to Filecoin, and more.
 
-Learn more here: [sp-relationships](../key-concepts/banyans-decentralization-model/sp-relationships/ "mention").
+Learn more here: [sp-relationships](../key-concepts/banyan-and-its-network/sp-relationships/ "mention").
 
 </details>
 
@@ -84,7 +84,7 @@ Read more here: [permissioned-retrievals.md](../key-concepts/banyans-security-mo
 
 <summary>Replicate data, manage failover, self-heal</summary>
 
-Banyan's self-healing properties ensure user data remains protected. If one or more SP experiences issues (i.e. network outage or hardware failure), a user's data is automatically replicated and stored on working SPs. Our infrastructure orchestrates failure detection and the data move. Learn more [here](../key-concepts/banyans-decentralization-model/self-healing-storage.md).
+Banyan's self-healing properties ensure user data remains protected. If one or more SP experiences issues (i.e. network outage or hardware failure), a user's data is automatically replicated and stored on working SPs. Our infrastructure orchestrates failure detection and the data move. Learn more [here](../key-concepts/banyan-and-its-network/self-healing-storage.md).
 
 </details>
 

@@ -57,8 +57,8 @@ We've put together some helpful guides for you to get set up with our product qu
 [what-banyan-does-for-nerds.md](nerd-zone-technical-gore/what-banyan-does-for-nerds.md)
 {% endcontent-ref %}
 
-{% content-ref url="key-concepts/banyans-decentralization-model/" %}
-[banyans-decentralization-model](key-concepts/banyans-decentralization-model/)
+{% content-ref url="key-concepts/banyan-and-its-network/" %}
+[banyan-and-its-network](key-concepts/banyan-and-its-network/)
 {% endcontent-ref %}
 
 {% content-ref url="key-concepts/archive-snapshots-filecoin.md" %}
