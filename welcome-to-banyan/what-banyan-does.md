@@ -46,8 +46,6 @@ TODO
 
 TODO
 
-### Optionally: serve data over S3 and IPFS
+### Optionally: serve data over S3
 
 S3 is coming very soon. See [s3-compatibility-layer.md](../getting-started/s3-compatibility-layer.md "mention").
-
-IPFS availability (for blocks, or for UnixFS-formatted files) is further out. If you would pay us for this and have a sizable amount of data, reach out [on our website](https://banyan.computer) (and we might prioritize this feature higher).
