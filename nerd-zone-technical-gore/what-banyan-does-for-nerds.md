@@ -40,7 +40,7 @@ Lifecycle policies will look like "don't keep old versions that have been out of
 
 When our infrastructure gets an expiry request, we forward it to the appropriate storage providers to queue the data for deletion, and stop billing the customer for the storage as soon as it's removed from the network.&#x20;
 
-Fulfillment of expiry requests is covered by our SLA and can be validated on Filecoin. It may take longer to tombstone old data on cold storage than on hot storage.
+Fulfillment of expiry requests is covered by our SLA. It may take longer to tombstone old data on cold storage than on hot storage.
 
 </details>
 
@@ -75,8 +75,6 @@ We do ACLs by having clients get a retrieval grant from our servers, which check
 We enforce the ACLs on the SP side (i.e., making sure they don't just hand your data out to people who fail the ACL check) using our binary and a contractual agreement between Banyan and the SP.
 
 This is somewhat inspired by Kerberos. We use UCAN for our retrieval grants.
-
-Read more here: [permissioned-retrievals.md](../key-concepts/banyans-security-model/permissioned-retrievals.md "mention").
 
 </details>
 
