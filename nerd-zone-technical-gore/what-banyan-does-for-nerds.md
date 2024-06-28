@@ -88,10 +88,8 @@ Banyan's self-healing properties ensure user data remains protected. If one or m
 
 <details>
 
-<summary>Optionally: serve data over S3 and IPFS</summary>
+<summary>Optionally: serve data over S3</summary>
 
 Our S3 API is coming very soon. See [s3-compatibility-layer.md](../getting-started/s3-compatibility-layer.md "mention").
-
-IPFS availability (for blocks, or for UnixFS-formatted files) is further out. If you would pay us for this and have a sizable amount of data, reach out [on our website](https://banyan.computer) (and we might prioritize this feature higher).
 
 </details>

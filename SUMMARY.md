@@ -15,7 +15,6 @@
 * [3️⃣ S3 Compatibility Layer](getting-started/s3-compatibility-layer.md)
 * [🤩 FAQs](getting-started/faqs/README.md)
   * [😿 Help! I have FAR too much data to upload with these puny baby tools!](getting-started/faqs/help-i-have-far-too-much-data-to-upload-with-these-puny-baby-tools.md)
-  * [😇 How does this compare to IPFS? (technically dense decentralized storage education zone)](getting-started/faqs/how-does-this-compare-to-ipfs-technically-dense-decentralized-storage-education-zone.md)
 
 ## Key Concepts
 
