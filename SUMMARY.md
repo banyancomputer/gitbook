@@ -24,6 +24,7 @@
   * [🏡 Content Addressing](key-concepts/drives-and-banyanfs/content-addressing.md)
 * [💵 Billing](key-concepts/billing.md)
 * [📪 Banyan's Security Model](key-concepts/banyans-security-model/README.md)
+  * [🚵‍♀️ Permissioned Retrievals](key-concepts/banyans-security-model/permissioned-retrievals.md)
   * [🔐 End-to-end Encryption](key-concepts/banyans-security-model/end-to-end-encryption.md)
   * [🧑‍⚖️ Service Level Agreement (SLA)](key-concepts/banyans-security-model/service-level-agreement-sla.md)
   * [😉 Third-party Compliance](key-concepts/banyans-security-model/third-party-compliance.md)

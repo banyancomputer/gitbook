@@ -19,7 +19,9 @@ layout:
 
 Banyan is a decentralized file storage platform that encrypts your data at the edge and distributes it to the Banyan network.
 
-Manage your data with ease using our various interoperable clients (including Javascript and Rust [BanyanFS](key-concepts/drives-and-banyanfs/) SDKs for use in apps), a Dropbox-like web experience for uploads and data management, a CLI for large-scale uploads, and an S3 API.
+Manage your data with ease using our various interoperable clients (including Javascript and Rust [BanyanFS](key-concepts/drives-and-banyanfs/) SDKs for use in apps), a Dropbox-like web experience for uploads and data management and FUSE for large-scale uploads.
+
+Then, access your data, view cryptographic proofs of its storage, audit its cryptographically-signed edit history, and securely collaborate on it with others.
 
 ## Video overview
 

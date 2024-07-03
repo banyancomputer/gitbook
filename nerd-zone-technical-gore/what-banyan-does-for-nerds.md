@@ -88,8 +88,9 @@ Banyan's self-healing properties ensure user data remains protected. If one or m
 
 <details>
 
-<summary>Optionally: serve data over S3</summary>
+<summary>Optionally: serve data over S3 and FUSE</summary>
 
 Our S3 API is coming very soon. See [s3-compatibility-layer.md](../getting-started/s3-compatibility-layer.md "mention").
+Our FUSE implementation is coming very soon. See [fuse.md](../getting-started/fuse.md "mention").
 
 </details>
