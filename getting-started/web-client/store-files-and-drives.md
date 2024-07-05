@@ -19,11 +19,12 @@ Once your file is uploaded, you can manipulate it as you would in any other file
 * Make a copy/duplicate
 * Rename
 * Remove
-  * deletes from filesystem
+  * deletes from filesystem, queues underlying blocks for deletion from Filecoin storage provider
 * Share file
   * share via a view-only browser link; no account required to view the link
   * public links and account-based sharing coming soon
 * View the security of your file at any time and know that your data is safe
+  * more info about proofs/Filecoin status will be added to the interface coming soon
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-03-26 at 2.02.40 PM.png" alt=""><figcaption><p>Manipulate files</p></figcaption></figure>
 

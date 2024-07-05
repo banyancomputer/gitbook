@@ -15,6 +15,8 @@
 * [3️⃣ S3 Compatibility Layer](getting-started/s3-compatibility-layer.md)
 * [🤩 FAQs](getting-started/faqs/README.md)
   * [😿 Help! I have FAR too much data to upload with these puny baby tools!](getting-started/faqs/help-i-have-far-too-much-data-to-upload-with-these-puny-baby-tools.md)
+  * [😰 I just want my data to go on Filecoin!](getting-started/faqs/i-just-want-my-data-to-go-on-filecoin.md)
+  * [😇 How does this compare to IPFS? (technically dense decentralized storage education zone)](getting-started/faqs/how-does-this-compare-to-ipfs-technically-dense-decentralized-storage-education-zone.md)
 
 ## Key Concepts
 
@@ -25,9 +27,15 @@
 * [💵 Billing](key-concepts/billing.md)
 * [📪 Banyan's Security Model](key-concepts/banyans-security-model/README.md)
   * [🚵‍♀️ Permissioned Retrievals](key-concepts/banyans-security-model/permissioned-retrievals.md)
+  * [✅ Filecoin & Proofs of Storage](key-concepts/banyans-security-model/filecoin-and-proofs-of-storage.md)
   * [🔐 End-to-end Encryption](key-concepts/banyans-security-model/end-to-end-encryption.md)
   * [🧑‍⚖️ Service Level Agreement (SLA)](key-concepts/banyans-security-model/service-level-agreement-sla.md)
   * [😉 Third-party Compliance](key-concepts/banyans-security-model/third-party-compliance.md)
+* [⛅ Banyan and its Network](key-concepts/banyan-and-its-network/README.md)
+  * [🏭 Storage Providers](key-concepts/banyan-and-its-network/sp-relationships/README.md)
+    * [🧐 SP Monitoring Service](key-concepts/banyan-and-its-network/sp-relationships/sp-monitoring-service.md)
+  * [🤕 Self-healing storage](key-concepts/banyan-and-its-network/self-healing-storage.md)
+* [🧊 Archive Snapshots (Filecoin)](key-concepts/archive-snapshots-filecoin.md)
 
 ## Nerd Zone (technical gore)
 

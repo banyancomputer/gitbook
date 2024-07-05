@@ -40,7 +40,7 @@ Lifecycle policies will look like "don't keep old versions that have been out of
 
 When our infrastructure gets an expiry request, we forward it to the appropriate storage providers to queue the data for deletion, and stop billing the customer for the storage as soon as it's removed from the network.&#x20;
 
-Fulfillment of expiry requests is covered by our SLA. It may take longer to tombstone old data on cold storage than on hot storage.
+Fulfillment of expiry requests is covered by our SLA and can be validated on Filecoin. It may take longer to tombstone old data on cold storage than on hot storage.
 
 </details>
 
@@ -76,6 +76,8 @@ We enforce the ACLs on the SP side (i.e., making sure they don't just hand your 
 
 This is somewhat inspired by Kerberos. We use UCAN for our retrieval grants.
 
+Read more here: [permissioned-retrievals.md](../key-concepts/banyans-security-model/permissioned-retrievals.md "mention").
+
 </details>
 
 <details>
@@ -88,9 +90,10 @@ Banyan's self-healing properties ensure user data remains protected. If one or m
 
 <details>
 
-<summary>Optionally: serve data over S3 and FUSE</summary>
+<summary>Optionally: serve data over S3 and IPFS</summary>
 
 Our S3 API is coming very soon. See [s3-compatibility-layer.md](../getting-started/s3-compatibility-layer.md "mention").
-Our FUSE implementation is coming very soon. See [fuse.md](../getting-started/fuse.md "mention").
+
+IPFS availability (for blocks, or for UnixFS-formatted files) is further out. If you would pay us for this and have a sizable amount of data, reach out [on our website](https://banyan.computer) (and we might prioritize this feature higher).
 
 </details>
